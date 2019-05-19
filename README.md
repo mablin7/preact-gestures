@@ -29,7 +29,7 @@ let MyComp = () => (
 )
 let MyCompWithGestures = withGestures(MyComp)
 
-render(<MyComp onDragStart={() => console.log('Im being dragged!')}/>, document.body)
+render(<MyCompWithGestures onDragStart={() => console.log('I am being dragged!')}/>, document.body)
 ```
 
 API
