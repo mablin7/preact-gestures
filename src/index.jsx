@@ -10,7 +10,7 @@ const splitHandlerName = name => {
   return [on + gestureName, eventName.join('')]
 }
 
-export function withGetures (Wrapped, config) {
+export function withGestures (Wrapped, config) {
   const handledEvents = []
   const configuredTriggers = gestureTriggers(config)
   

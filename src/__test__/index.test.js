@@ -2,13 +2,13 @@
 import { h } from 'preact'
 import { render, cleanup, fireEvent } from 'preact-testing-library'
 
-import { withGetures } from '../'
+import { withGestures } from '../'
 
 let TestComp, ComponentWithGestures
 
 beforeEach(() => {
   TestComp = ({ testProp = 'hello' }) => <div>{testProp}</div>
-  ComponentWithGestures = withGetures(TestComp)
+  ComponentWithGestures = withGestures(TestComp)
 })
 afterEach(cleanup)
 
