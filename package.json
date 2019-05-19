@@ -1,6 +1,6 @@
 {
   "name": "preact-gestures",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Preact compatible HOCs for gesture detection",
   "main": "dist/index.js",
   "scripts": {
