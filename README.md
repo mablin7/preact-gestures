@@ -25,11 +25,11 @@ import { h, render } from 'preact'
 import { withGestures } from 'preact-gestures'
 
 let MyComp = () => (
-<div>I'm a regular component</div>
+<div>I am a regular component</div>
 )
 let MyCompWithGestures = withGestures(MyComp)
 
-render(<MyComp onDragStart={() => console.log('Im being dragged!'')}/>, document.body)
+render(<MyComp onDragStart={() => console.log('Im being dragged!')}/>, document.body)
 ```
 
 API
