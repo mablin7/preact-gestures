@@ -1,6 +1,6 @@
 {
   "name": "preact-gestures",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Preact compatible HOCs for gesture detection",
   "main": "dist/index.js",
   "scripts": {
@@ -44,5 +44,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mablin7/preact-gestures"
-  }
+  },
+  "keywords": [
+    "preact",
+    "gesture",
+    "gestures",
+    "gesture detection",
+    "hoc",
+    "recogniser",
+    "regognizer"
+  ]
 }
